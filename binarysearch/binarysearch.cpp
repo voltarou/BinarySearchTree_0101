@@ -59,6 +59,7 @@ public:
 		
 		while ((currentNode != NULL) && (currentNode->info != element))
 		{  // While the currentNode is not NULL and the value in the data field of the currentNode is not equal to the value in the data field of the new node
+			parent = currentNode;  // Make the parent point to the currentNode
 		}
 	}
 };
