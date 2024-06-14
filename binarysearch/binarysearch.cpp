@@ -35,6 +35,11 @@ public:
 
 		(element, parent, currentNode);   // Locate the node which will be the parent of the new node
 
+		if (parent == nullptr) {  // If the parent is NULL (Tree is empty)
+			ROOT = newNode;  // mark the new node as the root
+			return;  // exit
+		}
+
 		
 		
 		
